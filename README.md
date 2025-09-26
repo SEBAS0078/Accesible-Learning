@@ -15,33 +15,33 @@ The React Compiler is not enabled on this template. To add it, see [this documen
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
-# Web Development Project 1 - *Name of App Here*
+# Web Development Project 1 - *Accesible Learning*
 
-Submitted by: **Your Name Here**
+Submitted by: **Sebastian**
 
-This web app: **insert description**
+This web app: **Allosws user to browse different accesible eductation resources. Each resources has the category and type of resource information and it links to the resource's page**
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [X] **The app has a cohesive, unique theme for events or resources relevant to a specific community**
-  - [X] Header/title describing the theme is displayed
-- [X] **At least 10 unique events or resources are displayed in a responsive card format**
-  - [X] There are at least 10 cards displayed 
-  - [X] The cards should be displayed in an organized format (ex. a grid, or in one line)
-  - [X] Each card should include some information about the event or resource
+- [X] ✅**The app has a cohesive, unique theme for events or resources relevant to a specific community**
+  - [X]✅ Header/title describing the theme is displayed
+- [X]✅ **At least 10 unique events or resources are displayed in a responsive card format**
+  - [X]✅ There are at least 10 cards displayed 
+  - [X]✅ The cards should be displayed in an organized format (ex. a grid, or in one line)
+  - [X]✅ Each card should include some information about the event or resource
 
 
 The following **optional** features are implemented:
 
-- [X] Buttons or links to a related resources are on each card component
-  - [X] All cards have buttons or links in addition to text
-- [X] The site is responsive for both desktop and mobile formats
-  - [X] Web app is shown in a mobile format
-  - [X] **Video Walkthrough Special Instructions**: To ease the grading process, please use Chrome Developer Tools' "Toggle Device" button to demonstrate that your web application's responsiveness in both a desktop *and* a mobile format. Detailed instructions can be found below this stretch feature on the project page. 
+- [X]✅ Buttons or links to a related resources are on each card component
+  - [X]✅ All cards have buttons or links in addition to text
+- [X]✅ The site is responsive for both desktop and mobile formats
+  - [X]✅ Web app is shown in a mobile format
+  - [X]✅ **Video Walkthrough Special Instructions**: To ease the grading process, please use Chrome Developer Tools' "Toggle Device" button to demonstrate that your web application's responsiveness in both a desktop *and* a mobile format. Detailed instructions can be found below this stretch feature on the project page. 
 
 
 ## Video Walkthrough

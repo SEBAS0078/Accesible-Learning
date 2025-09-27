@@ -54,17 +54,15 @@ Here's a walkthrough of implemented required features:
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
 <!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+LICEcap
 
 ## Notes
 
 Describe any challenges encountered while building the app.
-
+It was difficult getting some of the styling working, in particular the size of the cards and the size of the images relative to them.  I solved this by setting a maxwidth or width in parent containers and then setting child elements to be a percentage of that value. 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2025] [Sebastian Cruz Loaiza]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

@@ -84,13 +84,16 @@ section h2 {
 
 section p {
   font-size: 0.9rem;
-  color: #555;
 }
 
 /* Resource link */
 #resources-container a {
-  display: inline-block;
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  
 }
 
 section a:hover {
@@ -107,23 +110,29 @@ section a:hover {
 
 .resources-card {
   background-color: #000;
-  padding: 1%;
-  margin: 2%;
+  padding: 20px;
   border-radius: 10px;
   display: flex;
-  flex-direction: column; /* stack items vertically */
-  align-items: center;    /* centers horizontally */
-  justify-content: center; /* centers vertically if height is fixed */
+  flex-direction: column;
+  align-items: center;    
+  justify-content: flex-start;
   color: #fff;
   text-decoration: none;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  margin:10px; 
+  margin: 10px; 
+  /* Responsive card sizing */
+  flex: 1 1 100px;  /* min 250px wide, grows if space allows */
+  max-width: 300px;
+  height: 450px; 
+
 }
    
 .resource-image {
-    width: 90%;  
-    border-radius: 10px;
-    margin-top: 5px; 
+  width: 90%;          /* always 90% of card width */
+  height: auto;        /* keep aspect ratio */
+  border-radius: 10px;
+  margin-top: 10px;
+  object-fit: cover; 
 
 }
 
@@ -134,33 +143,38 @@ section a:hover {
     transform: scale(1.05);
 }
 .resources-card h2{
-  margin: 0px 0;
   color: #fff;           /* ensure text is white */
   text-decoration: none; /* prevents underline inside */
-  padding: 0px 10px; 
+  width: 90%;
+  text-align: center;
+  margin: 10px 0;
+  padding: 0 5px;
+  word-wrap: break-word;
 }
 .resource-category {
   margin: 0px 0;
   background: linear-gradient(135deg, #1e90ff, #00c3ff);
-  width: 70%; 
-  display: inline-block; 
+  width: 70%;
+  text-align: center;
   font-weight: bold;
   padding: 0.5rem 1rem;
   border-radius: 12px;
   margin-top: 10px;
   text-transform: uppercase;
+  color: #fff;
   color: rgb(255, 255, 255); 
 }
 .resource-type {
   margin: 0px 0;
   background: linear-gradient(135deg, #998211, #d8c70b);
-  width: 70%; 
-  display: inline-block; 
+  width: 70%;
+  text-align: center;
   font-weight: bold;
   padding: 0.5rem 1rem;
   border-radius: 12px;
   margin-top: 10px;
   text-transform: uppercase;
+  color: #fff;
   color: rgb(255, 255, 255); 
 }
 
